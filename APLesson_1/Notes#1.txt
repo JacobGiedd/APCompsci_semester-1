@@ -1,0 +1,12 @@
+						N O T E S # 1
+
+
+*This class period I learned how to utilize print statements allowing for the creation of Ascii Art 
+
+*I also learned how to intigrate Java into notpad++ to run my programs
+
+*I was show how every detail counts to the tee when programing 
+
+*I learned the basic principles of simple coding and how to prof simple code
+
+*I saw the importance in learning to truoble shoot issues and matain persistance
