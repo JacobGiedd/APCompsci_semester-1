@@ -1,16 +1,16 @@
-import java.util.scanner; //import Statement
+import java.util.scanner; 
 
 public class Lab_03
 {
 	public static void main(String[]args)
 	{
-		//instantiate the new scanner object "keyboard"
 		Scanner keyboard = new Scanner(System.in);
 		
-		//prompt for user input
-		System.out.println("How old are you? ");
+		System.out.println("How old M8?? ");
 		
-		//search forthe next
+		int num = keyboard.nexxtInt();
+		
+		System.out.println("Yesh! " + num + " is pretty  M80...");
 		
 	}
 }
