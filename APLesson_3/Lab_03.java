@@ -38,7 +38,12 @@ public class Lab_03
 		
 		System.out.println( job + "? " + "thats funny! " + "you actually need skill for that.");
 		
-		System.out.println();
+		System.out.println("so your name is " + name);
+		System.out.println("your " + num + " years old");
+		System.out.println("you like to " + fun + " for fun");
+		System.out.println("you listen to " + music);
+		System.out.println("And you want to be a " + job);
+		System.out.println("Im just doing you a kidding... sounds like you've got cew life, gud luck m80");
 		
 		
 		System.out.println("-BMI Calculator-");
@@ -51,7 +56,8 @@ public class Lab_03
 		
 		int w = keyboard.nextInt();
 		
-		System.out.println(" Your BMI is" + [w/h*h * 703);
+		System.out.println(" Your BMI is"); 
+		System.out.println("	" + w / h * h * 703);
 		
 
 	}
