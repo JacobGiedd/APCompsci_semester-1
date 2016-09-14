@@ -36,10 +36,22 @@ public class Lab_03
 		System.out.println("what do you want to be when your older");
 		String job = keyboard.next();
 		
-		System.out.println( job + "? " + "thats funny! " + "you need actually skill for that.");
+		System.out.println( job + "? " + "thats funny! " + "you actually need skill for that.");
 		
-		system.out.println
+		System.out.println();
 		
+		
+		System.out.println("-BMI Calculator-");
+		
+		System.out.println("-Imput Hight-");
+		
+		int h = keyboard.nextInt();
+		
+		System.out.println("-Imput wieght-");
+		
+		int w = keyboard.nextInt();
+		
+		System.out.println(" Your BMI is" + [w/h*h * 703);
 		
 
 	}
