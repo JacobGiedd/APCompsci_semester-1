@@ -6,7 +6,7 @@ public class Lab_02
 		int num1 = 9;
 		int num2 = 8;
 		
-		System.out.println("num1 multipied by num2 is " +" " + num1 * num2);
+		System.out.println("num1 multipied by num 2 is " + num1 * num2);
 		
 		System.out.println("Objective_Two");
 		
@@ -14,7 +14,8 @@ public class Lab_02
 		String second = "wontonStreet";
 		String third = "SoupCity";
 		int forth = 1122;
-		System.out.println( first + second + third + forth);
+		System.out.println( first + second);
+		System.out.println( third + forth);
 		
 		System.out.println("Objective_Three");
 		
