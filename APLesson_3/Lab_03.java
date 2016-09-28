@@ -4,6 +4,7 @@ public class Lab_03
 {
 	public static void main(String[]args)
 	{
+		
 		System.out.println("ayyy lmao! is I RudeAI");
 		
 		Scanner keyboard = new Scanner(System.in);

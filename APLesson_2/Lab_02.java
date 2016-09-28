@@ -10,11 +10,11 @@ public class Lab_02
 		
 		System.out.println("Objective_Two");
 		
-		String first = "BillSmith";
-		String second = "wontonStreet";
+		String first = "Bill Smith";
+		String second = "Wonton Street";
 		String third = "SoupCity";
 		int forth = 1122;
-		System.out.println( first + second);
+		System.out.println( first +" " + second);
 		System.out.println( third + forth);
 		
 		System.out.println("Objective_Three");
