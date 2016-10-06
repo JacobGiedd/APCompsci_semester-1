@@ -51,11 +51,11 @@ public class Lab_03
 		
 		System.out.println("-Imput Hight-");
 		
-		int h = keyboard.nextInt();
+		double h = keyboard.nextInt();
 		
 		System.out.println("-Imput wieght-");
 		
-		int w = keyboard.nextInt();
+		double w = keyboard.nextInt();
 		
 		System.out.println(" Your BMI is"); 
 		System.out.println("	" + w / h * h * 703);
