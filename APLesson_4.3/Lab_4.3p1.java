@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab_4p5
+public class Lab_4.3
 {
 	//Statics
 	static double l;
@@ -12,9 +12,9 @@ public class Lab_4p5
 		//Function #5
 		System.out.println("*Rectangle Perimiter*");
 		
-		//Scanners
+		//Scanners 
 		Scanner keyboard = new Scanner(System.in);
-		Lab_4p5 loan = new Lab_4p5();
+		Lab_4.3 loan = new Lab_4.3();
 		
 		//Imputs
 		System.out.println("IMPUT LENGTH");

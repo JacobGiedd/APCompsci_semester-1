@@ -12,7 +12,7 @@ public class Lab_4.3p2
 		//Function #6
 		System.out.println("*Average*");
 		
-		//Scanners
+		//Scanners 
 		Scanner keyboard = new Scanner(System.in);
 		Lab_4.3p2 loan = new Lab_4.3p2();
 		
