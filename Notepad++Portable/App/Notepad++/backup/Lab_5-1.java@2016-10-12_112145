@@ -1,0 +1,11 @@
+import java.util.Scanner; 
+
+public class Lab_5
+{
+	public static void main(String[]args)
+	{
+		
+		system.out.println("soup");
+	}
+	
+}

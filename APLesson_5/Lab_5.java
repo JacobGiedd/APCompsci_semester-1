@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Lab_5
 {
-	static double player;
-	static double computer;
+	static int player;
+	static int computer;
 	static String winner;
 	
 	public static void main(String[]args)
@@ -12,8 +12,8 @@ public class Lab_5
 		System.out.println("*Dice Game*");
 		
 		//Numbers
-		player = (Math.random()*7)+1;
-		computer = (Math.random()*7)+1;
+		int player = (int)(Math.random()*6)+1;
+		int computer = (int)(Math.random()*6)+1;
 		
 		diceRoll();
 		
@@ -29,5 +29,7 @@ public class Lab_5
 			winner = "Player";
 		if (computer > player)
 			winner = "Dice AI";
+		if (computer == player)
+			winner = "lmao it's a tie";
 	}
 }

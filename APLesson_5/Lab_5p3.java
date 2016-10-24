@@ -1,10 +1,14 @@
 import java.util.Scanner; 
 
-public class Lab_5
+public class Lab_5p3
 {
+	static double gradePoints;
+	static double GPA;
+	static double gPoints;
+	
 	public static void main(String[]args)
 	{	//function
-		system.out.println("*GPA Calculator*");
+		System.out.println("*GPA Calculator*");
 		
 		//scanners 
 		Lab_5p3 form = new Lab_5p3();
@@ -32,7 +36,32 @@ public class Lab_5
 		System.out.println("please enter your 7th grade");
 			String gseven = keyboard.next();
 		
+		double gradePoints = calcPoints(gone) + calcPoints(gtwo) + calcPoints(gthree) + calcPoints(gfour) + calcPoints(gfive) + calcPoints(gsix) + calcPoints(gseven);
+		
+		double GPA = gradePoints / 7;
+		
+		System.out.println("your GPA is " + GPA);
 		
 	}
 	
+	public static double calcPoints(String grade)
+	{
+		gradePoints = 0;
+		if (grade.equals("A"))
+			gradePoints = 4.0;
+		
+		if (grade.equals("B"))
+			gradePoints = 3.0;
+		
+		if (grade.equals("C"))
+			gradePoints = 2.0;
+		
+		if (grade.equals("D"))
+			gradePoints = 1.0;
+		
+		if (grade.equals("F"))
+			gradePoints = 0.0;
+		
+		return gradePoints;
+	}
 }
