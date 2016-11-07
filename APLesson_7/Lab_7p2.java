@@ -1,21 +1,21 @@
 import java.util.Scanner;
-public class Lab_7
+public class Lab_7p2
 {
 	static int number;
 	static int digits = 0;
-	static int sum = 0;
+	static int average = 0;
 	Scanner kb;
 	public static void main(String[]agrs)
 	{
 		Scanner kb = new Scanner(System.in);
-		System.out.println("-DigitAdder-");
+		System.out.println("-AverageDigits-");
 		System.out.println("please input a number");
 		number = kb.nextInt();
-		sumDigits();
-		System.out.println("The sum of the digits in " + number + " is " + sum);
+		avDigits();
+		System.out.println("The average of the digits in " + number + " is " + average);
 	}
 	
-	public static void sumDigits()
+	public static void avDigits()
 	{
 		int num = number;
 		while(num > 0)
