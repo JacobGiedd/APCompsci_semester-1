@@ -17,9 +17,10 @@ public class Lab_7p2
 	
 	public static void avDigits()
 	{
+		
 		int num = number;
 		while(num > 0)
-		{
+		{ 
 			digits += 1;
 			num /= 10; 
 		}
