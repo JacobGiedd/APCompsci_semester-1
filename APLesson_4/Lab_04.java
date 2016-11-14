@@ -44,8 +44,8 @@ public class Lab_04
 			form.format(word1, number1);
 			form.format(word2, number2);
 			form.format(word3, number3);
-				System.out.println("							   ");
-				System.out.println("							   "); 
+				System.out.println(" ");
+				System.out.println(" "); 
 			
 		//Totals
 		double subtotal = number1 + number2 + number3;
@@ -55,7 +55,8 @@ public class Lab_04
 		form.format("Subtotal", subtotal);
 		form.format("Tax", tax);
 		form.format("Total", total);
-		System.out.println("_______________________________");
+		System.out.println("");
+		System.out.println("____________________________________");
 		
 		
 		
