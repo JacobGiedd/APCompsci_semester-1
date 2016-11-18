@@ -5,14 +5,15 @@ public class Lab_6p2
 	public static void main(String[]agrs)
 	{
 		Scanner kb = new Scanner(System.in);
-		System.out.println("Please enter a word: ");
-		String word = kb.next();
+		System.out.println("*Factorial*");
+		System.out.println("Please enter a number: ");
+		int num = kb.nextInt();
+		int f = 1;
 		
 		
-		
-		for(int i = 0; i <= word.length(); i++)
+		for(int i = 4; i < f; i++)
 		{
-			System.out.println(word.substring(0, i));
+			System.out.println(i * f);
 		}
 		
 	}

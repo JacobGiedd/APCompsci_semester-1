@@ -1,12 +1,21 @@
 import java.util.Scanner;
-public class Lab_6p5
+public class Lab_6p2
 {
 	Scanner kb;
 	public static void main(String[]agrs)
 	{
 		Scanner kb = new Scanner(System.in);
-		System.out.println("*Counter*");
+		System.out.println("*Factorial*");
 		System.out.println("Please enter a number: ");
 		int num = kb.nextInt();
+		int f = 1;
+		
+		
+		for(int i = 1; i < f; i++)
+		{
+			System.out.println(i);
+		}
+		
 	}
+	
 }
