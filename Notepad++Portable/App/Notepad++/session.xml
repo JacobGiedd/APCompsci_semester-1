@@ -1,13 +1,15 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="3">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="308" startPos="228" endPos="228" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_10\Lab_10p2.java" backupFilePath="C:\Users\gieddj8897\Desktop\Giedd_Jacob\Notepad++Portable\App\Notepad++\backup\Lab_10p2.java@2016-12-05_111458" originalFileLastModifTimestamp="1480965152" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="336" startPos="206" endPos="226" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_10\Lab_10.java" backupFilePath="C:\Users\gieddj8897\Desktop\Giedd_Jacob\Notepad++Portable\App\Notepad++\backup\Lab_10.java@2016-12-05_111341" originalFileLastModifTimestamp="1480964959" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p8.java" backupFilePath="" originalFileLastModifTimestamp="1479321907" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p7.java" backupFilePath="" originalFileLastModifTimestamp="1479321903" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p6.java" backupFilePath="" originalFileLastModifTimestamp="1479321839" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="406" startPos="454" endPos="454" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p4.java" backupFilePath="" originalFileLastModifTimestamp="1479497423" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="406" startPos="0" endPos="148" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p4.java" backupFilePath="" originalFileLastModifTimestamp="1479497423" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="371" startPos="192" endPos="192" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p3.java" backupFilePath="" originalFileLastModifTimestamp="1479497421" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1199" startPos="320" endPos="320" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p2.java" backupFilePath="C:\Users\gieddj8897\Desktop\Giedd_Jacob\Notepad++Portable\App\Notepad++\backup\Lab_6p2.java@2016-11-18_114444" originalFileLastModifTimestamp="1479498257" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="385" startPos="309" endPos="309" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p1.java" backupFilePath="C:\Users\gieddj8897\Desktop\Giedd_Jacob\Notepad++Portable\App\Notepad++\backup\Lab_6p1.java@2016-11-18_114739" originalFileLastModifTimestamp="1479498453" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1199" startPos="320" endPos="320" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p2.java" backupFilePath="" originalFileLastModifTimestamp="1480963026" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="385" startPos="309" endPos="309" selMode="0" lang="Java" encoding="-1" filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p1.java" backupFilePath="" originalFileLastModifTimestamp="1480963023" />
         </mainView>
         <subView activeIndex="0" />
     </Session>
