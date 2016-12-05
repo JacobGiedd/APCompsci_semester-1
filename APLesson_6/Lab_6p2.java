@@ -11,9 +11,9 @@ public class Lab_6p2
 		int f = 1;
 		
 		
-		for(int i = 4; i < f; i++)
+		for(int i = 1; i < f; i++)
 		{
-			System.out.println(i * f);
+			System.out.println(i);
 		}
 		
 	}

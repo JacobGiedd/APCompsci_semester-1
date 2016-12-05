@@ -11,7 +11,7 @@ public class Lab_6p1
 		
 		
 		
-		for(int i = 0; i < word.length(); i + f)
+		for(int i = 0; i < word.length(); i++)
 		{
 			System.out.println(word);
 		}

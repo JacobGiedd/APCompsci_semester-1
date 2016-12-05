@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="755" y="299" width="960" height="928" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="13" y="155" width="960" height="928" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -102,7 +102,6 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_5\Lab_5p3.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Lab_5p4.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_5\Lab_5p5.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_4\Lab_04p2.java" />
@@ -117,6 +116,7 @@
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9\Lab_9.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_4.1\Lab_4p3.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_4\Lab_04.java" />
+        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p5.java" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
