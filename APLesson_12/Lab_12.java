@@ -7,6 +7,6 @@ public class Lab_12
 	public static void main(String[]agrs)
 	{
 		Scanner kb = new Scanner(System.in);
-		
+		System.out.println("*SPEED CALCULATOR*");
 	}
 }

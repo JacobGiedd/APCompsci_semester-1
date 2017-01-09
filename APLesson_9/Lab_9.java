@@ -5,5 +5,6 @@ public class Lab_9
 	public static void main(String[]agrs)
 	{
 		Scanner kb = new Scanner(System.in);
+		System.out.println("*WORD REVERSER*");
 	}
 }
