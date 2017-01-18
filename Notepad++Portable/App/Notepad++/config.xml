@@ -102,10 +102,6 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_8\Lab_8p3.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_8\Lab_8p4.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_4.1\Lab_4p3.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_4\Lab_04.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p5.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p8.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6.1\Lab_6p7.java" />
@@ -114,9 +110,10 @@
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p3.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p2.java" />
         <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_6\Lab_6p1.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9.1\Lab_9p7.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9.1\Lab_9p6.java" />
-        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9.1\Lab_9p5.java" />
+        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9\Lab_9p2.java" />
+        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9\Lab_9p3.java" />
+        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9\Lab_9p4.java" />
+        <File filename="C:\Users\gieddj8897\Desktop\Giedd_Jacob\APLesson_9\Lab_9.java" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

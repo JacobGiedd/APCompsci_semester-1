@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.lang.Math.*;
 public class Lab_12p2
 {
 	Scanner kb;
