@@ -6,7 +6,14 @@ public class Lab_6p5
 	{
 		Scanner kb = new Scanner(System.in);
 		System.out.println("*Counter*");
-		System.out.println("Please enter a number: ");
-		int num = kb.nextInt();
+		System.out.println("Please Enter Your Number: ");
+		double number =kb.nextDouble();
+		System.out.println("Input Interval");
+		double count = kb.nextDouble();
+		
+		for(int i = 0; i <= number; i += count)
+		{
+		System.out.print(i + "\t");
+		}
 	}
 }

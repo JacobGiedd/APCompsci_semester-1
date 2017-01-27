@@ -1,23 +1,33 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
+import static java.lang.System.*;
 import java.lang.Math.*;
 public class Lab_12
 {
-	Scanner kb;
-	public static void main(String[]agrs)
-	{
-		
-		Scanner kb = new Scanner(System.in);
-		System.out.println("*SPEED CALCULATOR*");
-		
-		//USER IMPUTS/ INSTANCE VARIABLES
-		System.out.println("-IMPUT DISTANCE-");
-			double d = keyboard.nextInt();
-		System.out.println("-IMPUT HOURS-");
-			int h = keyboard.nextInt();
-		System.out.println("-IMPUT MINUTES-");
-			int m = keyboard.nextInt();
-			
-	}
+    private int hours, minutes;
+	
+    private double mph, distance;
+    
+    public MilesPerHour(double dist, int time1, int time2){
+        distance=dist;
+        hours=time1;
+        minutes=time2;
+        mph=0;
+    }
+
+    public void setValues(double dist, int time1, int time2){
+        distance=dist;
+        hours=time1;
+        minutes=time2;
+        mph=0;
+    }
+
+    void calcMPH(){
+        mph = (distance / (hours + minutes / 60.0));
+    }
+
+    public double getMph(){
+        return mph;
+    }
 }

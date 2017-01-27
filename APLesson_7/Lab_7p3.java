@@ -1,27 +1,26 @@
 import java.util.Scanner;
 public class Lab_7p3
 {
-	static int number;
-	static int digits = 0;
-	static int rev = 0;
-	Scanner kb;
-	public static void main(String[]agrs)
-	{
+	static int num1;
+	static int reve;
+	public static void main(String[]args)
+	{	
 		Scanner kb = new Scanner(System.in);
-		System.out.println("-ReverseNumber-");
-		System.out.println("please input a number");
-		number = kb.nextInt();
+		System.out.println("Please Input a value");
+		num1= kb.nextInt();
 		getReverse();
-		System.out.println(number +" reversed is " + rev);
+		System.out.println(num1 + " reversed is " + reve);
 	}
 	
 	public static void getReverse()
 	{
-		int num = number;
-		while(num > 0)
+		reve = 0;
+		int x = num1;
+		while(x>0)
 		{
-			digits += 1;
-			num /= 10; 
+			reve*=10;
+			reve = reve + (x % 10);
+			x /= 10;
 		}
 	}
 }

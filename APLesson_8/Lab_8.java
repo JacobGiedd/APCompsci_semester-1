@@ -1,20 +1,23 @@
 import java.util.Scanner;
 public class Lab_8
 {
-	Scanner kb;
-	public static void main(String[]agrs)
-	{
+	//finnish T O D A Y
+	static String sentence;
+	public static void main(String[]args)
+	{	
 		Scanner kb = new Scanner(System.in);
-		System.out.println("-Underscores-");
-		System.out.println("please enter your number: ");
-		System.out.println(countDigits(kb.nextInt()));
+		System.out.println("");
+		System.out.println("Input a Sentence");
+		System.out.println(replace(kb.nextLine()));
 	}
-	public static int countDigits(int num)
+	
+	public static String replace(String sentence)
 	{
-		while(num > 0)
+		if (sentence.indexOf(" ")<0)
 		{
-			return 1 + (countDigits(num/10));
+			return sentence;
 		}
-		return 0;
+		else
+			return replace(sentence.substring(0,sentence.indexOf(" ")) +"_" + sentence.substring(sentence.indexOf(" ") + 1));
 	}
 }

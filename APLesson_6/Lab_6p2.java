@@ -7,15 +7,12 @@ public class Lab_6p2
 		Scanner kb = new Scanner(System.in);
 		System.out.println("*Factorial*");
 		System.out.println("Please enter a number: ");
-		int num = kb.nextInt();
-		int f = 1;
-		
-		
-		for(int i = 1; i < f; i++)
+		double number =kb.nextInt();
+		double result = 1;
+		for(double totalint = number; number > 0; number--)
 		{
-			System.out.println(i);
+			result = number*result;
 		}
-		
+			System.out.println("Factorial is" + result);
 	}
-	
 }

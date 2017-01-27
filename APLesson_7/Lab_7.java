@@ -2,26 +2,24 @@ import java.util.Scanner;
 public class Lab_7
 {
 	static int number;
-	static int digits = 0;
 	static int sum = 0;
-	Scanner kb;
-	public static void main(String[]agrs)
-	{
+	public static void main(String[]args)
+	{	
 		Scanner kb = new Scanner(System.in);
-		System.out.println("-DigitAdder-");
-		System.out.println("please input a number");
-		number = kb.nextInt();
+		System.out.println("*DIGIT ADDER*");
+		System.out.println("-Please Imput Value-");
+		number= kb.nextInt();
 		sumDigits();
-		System.out.println("The sum of the digits in " + number + " is " + sum);
+		System.out.println("The sum of all values is " + sum);
 	}
 	
 	public static void sumDigits()
 	{
 		int num = number;
-		while(num > 0)
+		while(num>0)
 		{
-			digits += 1;
-			num /= 10; 
+			sum = sum + (num % 10);
+			num /= 10;
 		}
 	}
 }

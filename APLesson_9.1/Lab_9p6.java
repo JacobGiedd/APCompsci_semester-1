@@ -4,9 +4,44 @@ import java.util.Arrays;
 public class Lab_9p6
 {
 	Scanner kb;
-	public static void main(String[]agrs)
+	public static int[]numbers;
+	public static void main(String[]args)
 	{
-		Scanner kb = new Scanner(System.in);
-		System.out.println("*BIGGEST NUMBER*");
+		numbers = new int[10];
+		fillArray();
+		printArray();
+		System.out.print("\nThe biggest number is" + getBiggest());
+		
 	}
+	
+	public static void fillArray()
+	{
+		for(int i= 0; i < numbers.length; i++)
+		{
+			numbers[i] = (int)(Math.random()*200)+1;
+		}
+	}
+	public static void printArray()
+	{
+		for(int number: numbers)
+		{
+			System.out.print(number + " ");
+		}
+	}
+	
+	public static int getBiggest()
+	{
+		int max =0;
+		
+		for(int number: numbers)
+		{
+			
+			if (number >= max){
+				max = number;
+			}
+		}
+		
+		return max;
+	}
+
 }

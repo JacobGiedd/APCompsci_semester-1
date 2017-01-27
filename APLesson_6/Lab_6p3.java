@@ -6,16 +6,12 @@ public class Lab_6p3
 	{
 		Scanner kb = new Scanner(System.in);
 		System.out.println("*ReverseTriangle*");
-		System.out.println("Please enter a word: ");
-		String word = kb.next();
+		System.out.println("Enter Your Word");
+		String Word =kb.next();
 		
-		
-		
-		for(int i = 0; i > word.length(); i--)
+		for(int i = Word.length(); i >= 0; i--)
 		{
-			System.out.println(word.substring(0, i));
+			System.out.println(Word.substring(0,i));
 		}
-		
 	}
-	
 }
