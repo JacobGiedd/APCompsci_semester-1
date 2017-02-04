@@ -5,35 +5,43 @@ import static java.lang.System.*;
 import java.lang.Math.*;
 public class Lab_12p2
 {
-    private int xOne, xTwo,yOne, yTwo;
+    static int xOne, yOne;
+	static int xTwo, yTwo;
 	
-    private double distance;
-   
-    public Distance(int x1, int x2, int y1, int y2)
-	{
-        xOne=x1;
-        xTwo=x2;
-        yOne=y1;
-        yTwo=y2;
-        distance=0;
-    }
+   static double distance;
+   //7PS
+public Distance(int x1, int y1, int x2, int y2)
+{
+	xOne = x1;
+		yOne = y1;
+	xTwo = x2;
+		yTwo = x2;
+	distance = 0;
+  }
+	//7possibly swicth
+public Distance()
+{
+	  xOne = 0;
+		yOne = 0;
+	  xTwo = 0;
+		yTwo = 0;
+	  distance = 0;
+  }
 
-    public void resetPoints()
-	{
-        xOne=0;
-        xTwo=0;
-        yOne=0;
-        yTwo=0;
-        distance=0;
-    }
+public void setValues(int x1, int y1, int x2, int y2)
+{
+	  
+	xOne = x1;
+		yOne = y1;
+	xTwo = x2;
+		yTwo = x2;
+  }
+  
+public double getDist()
+{
+	  distance =  Math.sqrt((xTwo-xOne)*(xTwo-xOne)+(yTwo-yOne)*(yTwo-yOne));
+	  
+	  return distance;
+	}
 
-    public void calcDistance() 
-	{
-        distance = Math.sqrt((xTwo-xOne)*(xTwo-xOne)+(yTwo-yOne)*(yTwo-yOne));
-    }
-
-    public double getDistance()
-	{
-        return distance;
-    }
 }

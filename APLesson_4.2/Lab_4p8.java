@@ -11,21 +11,22 @@ public class Lab_4p8
 		System.out.println("*Area Circle*");
 		
 		//Scanners
-		Scanner keyboard = new Scanner(System.in);
-		Lab_4p8 loan = new Lab_4p8();
+		Scanner up = new Scanner(System.in);
+		Circle a = new Circle();
 		
 		//Imputs 
 		System.out.println("Imput Radius");
-		double r =  keyboard.nextInt();
-	}
-		//Calculator
-	public static void calcArea()
-	{
-		area = 3.14 * r * r;
+		r = up.nextDouble();
+		up.nextLine();
+		double area = a.CircCalc(r);
+		
+		//prints
+		System.out.printf("The area of circle with a radius of " + r + " is " + "%.5f", area);
 	}
 	
-	public static void print()
+		//Calculator
+	public double CircCalc(Double r)
 	{
-		return
+		return Math.pow(r, 2) * Math.PI; 
 	}
 }

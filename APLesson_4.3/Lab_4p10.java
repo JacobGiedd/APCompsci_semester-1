@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab_4p6
+public class Lab_4p10
 {
 	static double num1;
 	static double num2;
@@ -15,6 +15,7 @@ public class Lab_4p6
 		//Scanners 
 		Scanner up = new Scanner(System.in);
 		Average mean = new Average();
+		Scanner keyboard = new Scanner(System.in);
 		
 		//Imputs
 		System.out.println("Imput num1");
@@ -24,14 +25,19 @@ public class Lab_4p6
 		System.out.println("Imput num3");
 		double num3 =  keyboard.nextInt();
 		
-		double avg = mean.average(num1, num2, num3);
+		//prints
+		average();
+		print();
 		
-		System.out.printf("The average of " + "%.5f " + "%.5f " + "and "+ "%.5f " + "is " + "%.5f.", num1, num2, num3, average);
 	}
 		//Calculator
-	public double average(double num1, double num2, double num3)
+	public static void average()
 	{
-		return (num1 + num2 + num3)/3;
+		average = (num1 + num2 + num3)/3.0;
+	}
+	
+	public static void print()
+	{
+		System.out.printf("The average of %.5f %.5f and %.5f is %.5f", num1,num2,num3,average);
 	}
 }
-	

@@ -2,30 +2,32 @@ import java.util.Scanner;
 
 public class Lab_4p7
 {
-	static double sl;
-	static double surface area;
-	
+	static double side;
+	static double SA;
+	static double a;
 	public static void main(String[]args)
 	{
 		//Function #7
 		System.out.println("*Surface area Cube*");
 		
 		//Scanners 
-		Scanner keyboard = new Scanner(System.in);
-		Lab_4p7 loan = new Lab_4p7();
+		Scanner up = new Scanner(System.in);
+		Cube sa = new Cube();
+		side = 6;
 		
 		//Imputs
 		System.out.println("Imput Side Length");
-		double sl =  keyboard.nextInt();
+		a = up.nextDouble();
+		up.nextLine();
+		SA = sa.SACalc(side, a);
+		
+		//prints
+		System.out.printf("The surface area of a cube with " + side + " sides is " + "%.5f", SA);
 	}
 		//Calculator
-	public static void calcSurf()
+	public double SACalc(double side, double a)
 	{
 		surface area = 6 * sl *sl;
-	}
-	
-	public static void print()
-	{
-		return
+		return side * a;
 	}
 }

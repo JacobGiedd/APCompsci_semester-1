@@ -4,21 +4,25 @@ public class Lab_6p4
 	Scanner kb;
 	public static void main(String[]agrs)
 	{
-		Scanner kb = new Scanner(System.in);
+		Scanner up = new Scanner(System.in);
+		//*START USE UP NOT KB*Scanner kb = new Scanner(System.in);
 		System.out.println("*GraphTable*");
 		System.out.println("Please enter a number: ");
-		double integer =kb.nextDouble();
+		int num = up.nextInt();
+		up.nextLine();
 		System.out.println("Please enter a table size: ");
-		int ts = kb.next();
+		int size = up.nextInt();
+		System.out.println("|f(x)|  x |");
 		
-		System.out.println("x\t  ||y");
-		for(double i = 1; i <= ts; i++)
+	
+		for(int i = 1; i <= size; i++)
 		{
-		 double y = i*integer;
+		num = num * i;
 		 
-		 System.out.printf(" %f||%f \n",i,y);
+		 System.out.printf("|%3s | %2s |\n", num, i);
 		}
 	}
+	
 	
 	
 }

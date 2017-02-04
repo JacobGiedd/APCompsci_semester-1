@@ -1,7 +1,10 @@
 import java.util.Scanner;
 public class Lab_9
-//rework later
-public static void main(String[]args)
+{
+	
+
+	//rework later*done*
+	public static void main(String[]args)
 	{
 		String[] words = new String[5];
 		Scanner kb = new Scanner(System.in);
@@ -18,17 +21,12 @@ public static void main(String[]args)
 		}
 		
 		System.out.println("\nReversed:");
-		reverse(words);
+		Reverse(words);
 	}
-	public static void reverse(String[] w)	
+	public static void Reverse(String[] a)
 	{
-		for(int i = w.length; i > 0; i--)
-		{
-			System.out.println(w[i-1]);
+		for(int i = a.length-1; i >= 0; i--){
+			System.out.println(a[i]);
 		}
 	}
-	
-	
-	
-	
 }

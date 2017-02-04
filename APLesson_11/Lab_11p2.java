@@ -6,7 +6,7 @@ public class Lab_11p2
 	Scanner kb;
 	public static void main(String[]agrs)
 	{
-		Scanner kb = new Scanner(System.in);
+		
 		String[][]words = new String [4][4];
 		Scanner kb = new Scanner(System.in);
 		int num = 1;
@@ -24,6 +24,7 @@ public class Lab_11p2
 			{
 				System.out.print(words[i][j] + "\t");
 			}
+			
 			System.out.println();
 		}
 	}

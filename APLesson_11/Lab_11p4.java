@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 public class Lab_11p4
 {
@@ -9,7 +9,7 @@ public class Lab_11p4
 		
 		Scanner kb = new Scanner(System.in);
 		int[][]nums = new int [4][4];
-		Scanner kb = new Scanner(System.in);
+		
 		int num = 1;
 		for(int i = 0; i < nums.length; i++)
 		{
