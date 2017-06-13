@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Circle implements cutShapes
+{
+	private double radius;
+	public Circle()
+	{
+	
+		radius = 0;
+	}
+	public Circle(double r)
+	{
+		radius = r;
+	}
+	public double getRadius()
+	{
+		return radius;
+	}
+	public double getArea()
+	{
+		return pi * Math.pow(radius, 2);
+	}
+	
+}
